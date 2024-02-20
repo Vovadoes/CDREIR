@@ -16,7 +16,7 @@ class Calculation:
         self.d = None
 
     def simple(self):
-        self.d = (self.i / 100) / (1 + self.n * (self.i / 100))
+        self.d = self.i / (1 + self.n * (self.i / 100))
 
     def difficult(self):
         self.d = self.i / (1 + (self.i / 100))
