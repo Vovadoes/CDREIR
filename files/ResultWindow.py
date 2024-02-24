@@ -97,7 +97,7 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Расчёт учетных ставок, эквивалентных процентным ставкам"))
-        self.label.setText(_translate("Form", "Учтенная годовая ставка, эквивалентная данной процентной ставке, равна:"))
+        self.label.setText(_translate("Form", "Учётная годовая ставка, эквивалентная данной процентной ставке, равна:"))
         self.label_2.setText(_translate("Form", "<html><head/><body><p>d</p></body></html>"))
         self.label_3.setText(_translate("Form", "="))
         self.label_4.setText(_translate("Form", "%"))
