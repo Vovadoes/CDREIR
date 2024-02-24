@@ -28,7 +28,7 @@ class Variables:
 
     def load(self):
         self.i = mywindow.is_float(self.main_window.ui.doubleSpinBox)
-        self.n = int(mywindow.is_float(self.main_window.ui.doubleSpinBox_2))
+        self.n = mywindow.is_float(self.main_window.ui.doubleSpinBox_2)
 
     def update(self):
         self.load()
@@ -46,8 +46,8 @@ class mywindow(QtWidgets.QMainWindow):
         self.ui.setupUi(self)
 
         if DEDUG:
-            self.ui.doubleSpinBox.setValue(1)  # i
-            self.ui.doubleSpinBox_2.setValue(2)  # n
+            self.ui.doubleSpinBox.setValue(35)  # i
+            self.ui.doubleSpinBox_2.setValue(0.5)  # n
 
         change_size(self)
 

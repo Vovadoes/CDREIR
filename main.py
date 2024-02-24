@@ -23,8 +23,8 @@ class Calculation:
 
 
 if __name__ == "__main__":
-    i = 1
-    n = 2
+    i = 35
+    n = 0.5
     calculation = Calculation(i, n)
     calculation.simple()
     print(calculation.d)
